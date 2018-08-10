@@ -1,0 +1,17 @@
+{
+  "name": "@eventology/eslint-config",
+  "version": "0.0.1",
+  "description": "The base eslint config for eventology javascript projects",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "eventology"
+  ],
+  "author": "Chance Hudson",
+  "license": "MIT"
+}
