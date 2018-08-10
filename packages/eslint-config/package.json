@@ -13,5 +13,8 @@
     "eventology"
   ],
   "author": "Chance Hudson",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  }
 }
