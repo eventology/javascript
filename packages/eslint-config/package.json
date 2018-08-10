@@ -1,7 +1,7 @@
 {
   "name": "@eventology/eslint-config",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The base eslint config for eventology javascript projects",
   "main": "config.js",
   "scripts": {
