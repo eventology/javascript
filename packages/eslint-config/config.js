@@ -80,10 +80,9 @@ module.exports = {
     'react',
     'react-native'
   ],
-  env: {
-    'es6': true,
-    'react-native/react-native': true
-  }
+  // env: {
+  //   'es6': true
+  // }
   parserOptions: {
     'ecmaVersion': 6,
     'sourceType': 'module',
