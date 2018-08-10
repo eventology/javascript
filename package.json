@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/eventology/javascript/issues"
   },
-  "homepage": "https://github.com/eventology/javascript#readme"
+  "homepage": "https://github.com/eventology/javascript#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
