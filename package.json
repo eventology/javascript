@@ -1,0 +1,23 @@
+{
+  "name": "@eventology/javascript",
+  "version": "0.0.1",
+  "description": "Javascript configuration for eventology projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eventology/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "javascript"
+  ],
+  "author": "Chance Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eventology/javascript/issues"
+  },
+  "homepage": "https://github.com/eventology/javascript#readme"
+}
