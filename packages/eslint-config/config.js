@@ -78,7 +78,8 @@ module.exports = {
     'prettier',
     'eslint-plugin-flowtype',
     'react',
-    'react-native'
+    'react-native',
+    'import'
   ],
   // env: {
   //   'es6': true
