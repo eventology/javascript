@@ -1,6 +1,6 @@
 # eslint-config
 
-A set of eslint rules for styling and linting code.
+A set of eslint rules for styling and linting code in eventology projects.
 
 ## Installation
 
