@@ -62,7 +62,7 @@ const reactRules = {
   ],
   'react/jsx-curly-spacing': 2,
   'react/jsx-equals-spacing': 2,
-  'react/jsx-handler-names': 2,
+  // 'react/jsx-handler-names': 2,
   'react/jsx-indent': [2, 2],
   'react/jsx-no-duplicate-props': 2,
   'react/jsx-pascal-case': 2,
