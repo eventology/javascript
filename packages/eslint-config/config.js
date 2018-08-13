@@ -74,7 +74,8 @@ const reactNativeRules = {
 
 const prettierOptions = {
   'trailingComma': 'es5',
-  'arrowParens': 'always'
+  'arrowParens': 'always',
+  'singleQuote': true
 };
 
 module.exports = {
