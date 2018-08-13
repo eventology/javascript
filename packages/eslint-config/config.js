@@ -32,7 +32,7 @@ const rules = {
   'no-case-declarations': 1,
   'no-nested-ternary': 2,
   'no-unneeded-ternary': 2,
-  'no-mixed-operators': 2,
+  // 'no-mixed-operators': 2,
   'nonblock-statement-body-position': 2,
   'no-else-return': 2,
   'camelcase': 2,
