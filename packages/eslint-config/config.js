@@ -1,10 +1,10 @@
 const rules = {
   'no-useless-constructor': 1,
   'no-unused-vars': 1,
-  'prettier/prettier': [2, {
-    'trailing-comma': 'es5',
-    'arrow-parens': 'always',
-    'single-quote': true
+  'prettier/prettier': ['error', {
+    'trailingComma': 'es5',
+    'arrowParens': 'always',
+    'singleQuote': true
   }],
   'prefer-const': 2,
   'no-const-assign': 2,
@@ -97,6 +97,6 @@ module.exports = {
   rules: {
     ...rules,
     ...reactRules,
-    ...reactNativeRule
+    ...reactNativeRules
   }
 };
