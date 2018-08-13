@@ -1,3 +1,5 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@eventology/eslint-config.svg)](https://www.npmjs.com/package/@eventology/eslint-config)
+
 # eslint-config
 
 A set of eslint rules for styling and linting code in eventology projects.
