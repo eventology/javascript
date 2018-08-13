@@ -20,7 +20,7 @@ const rules = {
   'prefer-arrow-callback': 2,
   'arrow-parens': 2,
   'arrow-body-style': 2,
-  'no-confusing-arrow': 2,
+  // 'no-confusing-arrow': 2,
   'no-dupe-class-members': 2,
   'import/no-duplicates': 2,
   'import/first': 2,
