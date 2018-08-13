@@ -1,7 +1,11 @@
 const rules = {
   'no-useless-constructor': 1,
   'no-unused-vars': 1,
-  'prettier/prettier': 2,
+  'prettier/prettier': [2, {
+    'trailing-comma': 'es5',
+    'arrow-parens': 'always',
+    'single-quote': true
+  }],
   'prefer-const': 2,
   'no-const-assign': 2,
   'no-var': 2,
@@ -72,12 +76,6 @@ const reactNativeRules = {
   'react-native/no-color-literals': 2,
 };
 
-const prettierOptions = {
-  'trailingComma': 'es5',
-  'arrowParens': 'always',
-  'singleQuote': true
-};
-
 module.exports = {
   plugins: [
     'prettier',
@@ -99,7 +97,6 @@ module.exports = {
   rules: {
     ...rules,
     ...reactRules,
-    ...reactNativeRules,
-    ...prettierOptions
+    ...reactNativeRule
   }
 };
