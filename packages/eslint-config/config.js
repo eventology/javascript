@@ -31,7 +31,6 @@ const rules = {
   'no-mixed-operators': 2,
   'nonblock-statement-body-position': 2,
   'no-else-return': 2,
-  'comma-dangle': 2,
   'camelcase': 2,
 };
 
@@ -73,6 +72,11 @@ const reactNativeRules = {
   'react-native/no-color-literals': 2,
 };
 
+const prettierOptions = {
+  'trailingComma': 'es5',
+  'arrowParens': 'always'
+};
+
 module.exports = {
   plugins: [
     'prettier',
@@ -94,6 +98,7 @@ module.exports = {
   rules: {
     ...rules,
     ...reactRules,
-    ...reactNativeRules
+    ...reactNativeRules,
+    ...prettierOptions
   }
 };
