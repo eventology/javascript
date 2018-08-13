@@ -22,7 +22,7 @@ const rules = {
   'arrow-body-style': 2,
   'no-confusing-arrow': 2,
   'no-dupe-class-members': 2,
-  'no-duplicate-imports': 2,
+  'import/no-duplicates': 2,
   'import/first': 2,
   'no-iterator': 1,
   'dot-notation': 2,
